@@ -1,4 +1,12 @@
 body {
     width: 100%;
     height: 100vh;
+    margin: 0;
+    background-color: #3c6b9e;
+    color: #edf1f5;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
 }
