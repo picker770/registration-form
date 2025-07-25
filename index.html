@@ -22,12 +22,37 @@
         /></label>
         <label for="new-password"
           >Create a New Password:
-          <input id="new-password" type="password" pattern="[a-z0-5]{8,}" required
+          <input
+            id="new-password"
+            type="password"
+            pattern="[a-z0-5]{8,}"
+            required
         /></label>
-        <!-- we stopped at step 19 -->
       </fieldset>
-      <fieldset></fieldset>
-      <fieldset></fieldset>
+      <fieldset>
+        <legend>Account type (required)</legend>
+        <label for="personal-account"
+          ><input
+            type="radio"
+            name="account-type"
+            id="personal-account"
+            checked
+          />
+          Personal</label
+        >
+        <label for="business-account"
+          ><input type="radio" name="account-type" id="business-account" />
+          Business</label
+        >
+      </fieldset>
+      <fieldset>
+        <label>Upload a profile picture:<input type="file"></label>
+      </fieldset>
+
+      <label for="terms-and-conditions"
+        ><input type="checkbox" id="terms-and-conditions" checked /> I accept
+        the <a href="#">terms and conditions.</a></label
+      >
 
       <input type="submit" value="Sumbit" />
     </form>
